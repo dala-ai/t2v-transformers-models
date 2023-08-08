@@ -1,2 +1,8 @@
 models
 nltk_data
+cicd
+build.sh
+*Dockerfile
+download.py
+requirements.txt
+*test*
