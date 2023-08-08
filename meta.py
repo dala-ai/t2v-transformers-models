@@ -8,12 +8,10 @@ class Meta:
         self.config = AutoConfig.from_pretrained(model_path)
 
     def get(self):
-        return {
-            'model': self.config.to_dict()
-        }
+        return {"model": self.config.to_dict()}
 
     def getModelType(self):
-        return self.config.to_dict()['model_type']
+        return self.config.to_dict()["model_type"]
 
     def get_architecture(self):
         architecture = None
